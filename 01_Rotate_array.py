@@ -29,11 +29,13 @@ def arr_rotate(arr,k):
             start += 1
             end -= 1
 
-
+    # Step 1: reverse whole array
     reverse(0,n-1)
 
+    # Step 2: reverse first k
     reverse(0,k-1)
 
+     # Step 3: reverse rest
     reverse(k,n-1)
 
     print(arr)
@@ -41,3 +43,7 @@ def arr_rotate(arr,k):
 arr = [1,2,3,4,5,6,7,8]
 k = 3
 arr_rotate(arr,k)
+
+ # Time Complexity: O(n)
+
+# Space Complexity: O(1)
