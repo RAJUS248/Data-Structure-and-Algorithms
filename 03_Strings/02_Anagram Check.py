@@ -7,7 +7,7 @@ print(Anagram_Check("raja","ajar"))
 
 def Anagram_Check_v2(string1,string2): 
 
-    freq = {} 
+    freq = {}  
     freq1 = {}
     
     for ch in string1:
@@ -53,4 +53,5 @@ def Anagram_Check_v3(string1,string2):
 
 
 print(Anagram_Check_v3("raja","xyz"))
+
 
