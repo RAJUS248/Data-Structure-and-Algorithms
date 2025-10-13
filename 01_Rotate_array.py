@@ -11,7 +11,7 @@ def rotate_array(arr, k):
     # Step 3: reverse remaining n-k elements
     arr[k:] = reversed(arr[k:])
     
-    return arr
+    return arr 
 
 # Example
 arr = [1, 2, 3, 4, 5, 6, 7]
