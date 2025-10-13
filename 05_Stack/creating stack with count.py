@@ -7,7 +7,7 @@ class Stack:
     def __init__(self):
         self.top = None
         self.count = 0
-
+ 
     def push(self,data):
         new_node = Node(data)
 
@@ -66,4 +66,5 @@ if __name__ == "__main__":
 
     stack.display()
     stack.peek()
+
     stack.get_count()
