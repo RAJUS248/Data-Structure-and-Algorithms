@@ -9,7 +9,7 @@ class Stack:
         self.top = None
         
 
-    def push(self,data):
+    def push(self,data): 
         new_node = Node(data)
 
         new_node.next = self.top
@@ -61,4 +61,5 @@ stack.display()
        
 
         
+
     
