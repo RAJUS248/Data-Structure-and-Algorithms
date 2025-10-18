@@ -4,7 +4,7 @@ def palindrome(string):
     end = len(string) - 1
 
     while start < end:  
-        if string[start] != string[end]:
+        if string[start] != string[end]:   
             return False
         start += 1
         end -= 1
@@ -19,3 +19,4 @@ def palindrome_v2(string):
 print(palindrome_v2("mada"))
 
         
+
