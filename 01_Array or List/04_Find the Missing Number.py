@@ -12,6 +12,19 @@ arr = [0,3,1]          # it means the missing number is 2  like 0,1,2,3 like thi
 print(missing_num(arr))
 
 
+def missing(arr):
+    n = len(arr) + 1
+    total = 0
+    for i in arr:
+        total += i
+    expected = n * (n + 1) // 2
+    return expected - total
+
+arr = [1]
+print(missing(arr))
+
+
+
 def xor(arr):
     xor_full = 0
     xor_arr = 0
@@ -51,4 +64,5 @@ def miss(arr):
     
 arr = [0,7]
 print(miss(arr))
+
 
