@@ -23,6 +23,6 @@ def Frequency_Count_v2(string):
 
     print(freq) 
 
-string = "rajaaa"
+string = "rraja"
 
 Frequency_Count_v2(string)
