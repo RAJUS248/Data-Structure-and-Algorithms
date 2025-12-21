@@ -13,6 +13,27 @@ arr = [0, 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0]
 print(zero_end(arr))
 
 
+# o(n)
+def pushZerosAtEnd(arr, n) :
+    #Your code goes here
+
+    k = 0
+
+    for i in range(n):
+
+        if arr[i] != 0:
+            arr[k],arr[i] = arr[i],arr[k]
+
+            k += 1
+
+    return arr
+
+n = 12
+arr = [0, 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0]
+print(pushZerosAtEnd(arr,n))
+
+
+
 # using extra list
 def zero_end_v2(arr):
     new_list = []
@@ -31,4 +52,5 @@ def zero_end_v2(arr):
     return new_list
       
 arr = [0, 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0]
+
 print(zero_end_v2(arr))
