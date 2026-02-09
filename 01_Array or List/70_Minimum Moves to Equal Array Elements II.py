@@ -17,7 +17,8 @@ def minMoves2(nums):
 
         move += abs(num - mid)
 
-    return move
+    return move 
 
 nums = [1, 10, 2, 9]
 print(minMoves2(nums))
+
