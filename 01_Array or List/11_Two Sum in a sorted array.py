@@ -15,7 +15,7 @@ def two_sum_v2(arr,target):
 
     seen = {}
 
-    for index,num in enumerate(arr):
+    for index,num in enumerate(arr): 
         sec_num = target - num
         if sec_num in seen:
             print(seen[sec_num],index)
@@ -26,6 +26,7 @@ def two_sum_v2(arr,target):
 arr = [2,3,2,5,7]
 target = 8
 two_sum_v2(arr,target)
+
 
 
 
