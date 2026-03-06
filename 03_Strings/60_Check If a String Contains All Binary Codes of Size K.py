@@ -16,4 +16,5 @@ def hasAllCodes(s, k):
         
 s = "00110110"
 k = 2
+
 print(hasAllCodes(s,k))
