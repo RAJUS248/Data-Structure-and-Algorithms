@@ -11,11 +11,12 @@ def hasAllCodes(s, k):
         if len(seen) == 2**k:
             return True
 
-        else:
+        else:               
             return False
         
 s = "00110110"
 k = 2
 
 print(hasAllCodes(s,k))
+
 
