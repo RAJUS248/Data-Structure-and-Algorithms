@@ -7,7 +7,7 @@ def longest_of_LIS(nums):
         for j in range(i): 
 
             if nums[i] > nums[j]:
-                LIS[i] = max(LIS[i],LIS[j]+1)
+                LIS[i] = max(LIS[i],LIS[j]+1) 
 
     return max(LIS),LIS
 
