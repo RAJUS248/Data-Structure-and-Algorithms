@@ -1,6 +1,6 @@
 def hasAllCodes(s, k):
         
-        seen = set()
+        seen = set() 
 
         for i in range(len(s)):
 
