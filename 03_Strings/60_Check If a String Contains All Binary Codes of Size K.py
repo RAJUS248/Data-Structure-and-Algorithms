@@ -7,7 +7,7 @@ def hasAllCodes(s, k):
             slice_s = s[i:i+k] 
             if len(slice_s) == k:     
                 seen.add(slice_s) 
-         
+          
         if len(seen) == 2**k:
             return True
 
