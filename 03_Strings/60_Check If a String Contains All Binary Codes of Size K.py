@@ -4,7 +4,7 @@ def hasAllCodes(s, k):
 
         for i in range(len(s)):
 
-            slice_s = s[i:i+k]
+            slice_s = s[i:i+k] 
             if len(slice_s) == k:     
                 seen.add(slice_s) 
          
