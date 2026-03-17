@@ -8,7 +8,7 @@ def findTheDifference(s, t):
         if s[i] != t[i]:
             return t[i]
         
-    return t.pop()
+    return t.pop() 
         
 s = "abcd"
 t = "abcde"
