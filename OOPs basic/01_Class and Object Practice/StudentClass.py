@@ -11,7 +11,7 @@ class Student:
  
 student1 = Student("raja", 22)
 student2 = Student("rani", 22)
-
+ 
 student1.display()
 student2.display()
 
