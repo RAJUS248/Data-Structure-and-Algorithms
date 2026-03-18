@@ -3,7 +3,7 @@ class Student:
     def __init__(self, name , age):
 
         self.name = name
-        self.age = age
+        self.age = age 
 
     def display(self):
         print(f"{self.name} and age {self.age}")
