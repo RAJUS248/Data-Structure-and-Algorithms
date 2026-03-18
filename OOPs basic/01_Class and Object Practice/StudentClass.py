@@ -8,7 +8,7 @@ class Student:
     def display(self):
         print(f"{self.name} and age {self.age}")
     
-
+ 
 student1 = Student("raja", 22)
 student2 = Student("rani", 22)
 
