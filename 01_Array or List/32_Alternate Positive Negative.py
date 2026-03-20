@@ -9,7 +9,7 @@ def Alternate_Positive_Negative(arr):
             pos_arr.append(num)
 
         else:
-            neg_arr.append(num)
+            neg_arr.append(num) 
 
     arr2 = []
 
