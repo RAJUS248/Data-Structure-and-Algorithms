@@ -5,7 +5,7 @@ def Alternate_Positive_Negative(arr):
 
     for num in arr:
 
-        if num >= 0:
+        if num >= 0: 
             pos_arr.append(num)
 
         else: 
