@@ -1,6 +1,6 @@
 def Alternate_Positive_Negative(arr):
 
-    pos_arr = []
+    pos_arr = [] 
     neg_arr = []
 
     for num in arr:
