@@ -5,7 +5,7 @@ def palindrome(string):
 
     while start < end:  
         if string[start] != string[end]:   
-            return False
+            return False  
         start += 1
         end -= 1
 
