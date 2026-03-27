@@ -4,7 +4,7 @@ def Reverse_String(string):
         print(string[i],end="")
 
 Reverse_String("raja")
-
+ 
 def reverse_str(string1):
 
     return string1[::-1]
