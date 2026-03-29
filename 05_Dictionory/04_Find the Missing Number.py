@@ -1,5 +1,5 @@
 def missing_num(arr):
-    n = len(arr)
+    n = len(arr) 
 
     total = n * (n + 1)//2
 
