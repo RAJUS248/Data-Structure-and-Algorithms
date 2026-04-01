@@ -11,7 +11,7 @@ def arrayRankTransform(arr):
             if score not in seen:
                 seen[score] = rank + 1       
                   
-        
+                    
       
         rank_arr = []
         for num in arr:
