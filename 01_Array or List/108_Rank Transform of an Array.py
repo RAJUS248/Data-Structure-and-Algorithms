@@ -12,7 +12,7 @@ def arrayRankTransform(arr):
                 seen[score] = rank + 1       
            
         
-
+      
         rank_arr = []
         for num in arr:
             rank_arr.append(seen[num])
