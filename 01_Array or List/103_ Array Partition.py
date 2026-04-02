@@ -12,6 +12,6 @@ def arrayPairSum(nums):
     return max_sum 
 
 nums = [6,2,6,5,1,2]
-print(arrayPairSum(nums))
+print(arrayPairSum(nums))  
   
         
