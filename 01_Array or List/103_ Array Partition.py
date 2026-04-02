@@ -9,7 +9,7 @@ def arrayPairSum(nums):
         
         max_sum += nums[i]
 
-    return max_sum
+    return max_sum 
 
 nums = [6,2,6,5,1,2]
 print(arrayPairSum(nums))
