@@ -11,7 +11,7 @@ def removeConsecutiveDuplicates(string):
 
 string = 'xxxyyyzwwzzz'
 print(removeConsecutiveDuplicates(string))
-
+ 
 
 # recurcive
 
