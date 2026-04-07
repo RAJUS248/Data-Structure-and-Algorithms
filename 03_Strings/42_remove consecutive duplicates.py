@@ -7,7 +7,7 @@ def removeConsecutiveDuplicates(string):
         if string[i-1] != string[i]:
             res += string[i]
 
-    return res
+    return res  
 
 string = 'xxxyyyzwwzzz'
 print(removeConsecutiveDuplicates(string))
