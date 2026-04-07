@@ -5,7 +5,7 @@ def unvisitedLeaves(N, leaves, frogs):
 
         pos = frogs[i]
         while pos <= leaves:
-
+   
             if pos not in visited:
                 visited.add(pos)
 
