@@ -6,7 +6,7 @@ def Remove_and_Reverse(s):
     i = 0
     j = len(s) - 1
     front = True
-    pos = set()
+    pos = set() 
 
     while i <= j:
         
