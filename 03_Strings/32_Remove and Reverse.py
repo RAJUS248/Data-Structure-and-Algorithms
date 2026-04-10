@@ -4,7 +4,7 @@ def Remove_and_Reverse(s):
         seen[ch] = seen.get(ch,0) + 1
 
     i = 0
-    j = len(s) - 1
+    j = len(s) - 1  
     front = True
     pos = set() 
 
