@@ -7,7 +7,7 @@ def linear_search(arr,key):
         
     return 'Key is not present'
     
-arr = [9,4,7,6,8,1,8,3,7,2]
+arr = [9,4,7,6,8,1,8,3,7,2] 
 key = 10
 result = linear_search(arr,key)
 
