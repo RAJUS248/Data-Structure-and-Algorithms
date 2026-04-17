@@ -6,7 +6,7 @@ class TreeNode:
         self.left = None  
         self.right = None
  
-def Non_Recursive_Preorder(root):
+def Non_Recursive_Preorder(root): 
     
     if not root:
         return
