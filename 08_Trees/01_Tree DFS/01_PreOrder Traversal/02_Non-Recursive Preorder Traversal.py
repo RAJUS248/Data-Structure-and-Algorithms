@@ -4,7 +4,7 @@ class TreeNode:
 
         self.data = data
         self.left = None  
-        self.right = None
+        self.right = None   
  
 def Non_Recursive_Preorder(root): 
     
