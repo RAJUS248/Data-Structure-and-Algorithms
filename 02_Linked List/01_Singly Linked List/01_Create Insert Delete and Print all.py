@@ -5,7 +5,7 @@ class Node:
  
     
 class SLL:   
-
+  
     def __init__(self):
         self.head = None
 
