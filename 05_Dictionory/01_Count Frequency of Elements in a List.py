@@ -1,7 +1,7 @@
 def count_freq(arr):
     seen = {}
 
-    for num in arr:
+    for num in arr:  
         if num in seen:
             seen[num] += 1
 
