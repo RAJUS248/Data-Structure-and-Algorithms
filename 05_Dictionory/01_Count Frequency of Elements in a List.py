@@ -6,7 +6,7 @@ def count_freq(arr):
             seen[num] += 1
   
         else:
-            seen[num] = 1
+            seen[num] = 1   
 
     print(seen)
 
