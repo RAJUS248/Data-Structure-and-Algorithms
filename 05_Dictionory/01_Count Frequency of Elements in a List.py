@@ -10,7 +10,7 @@ def count_freq(arr):
 
     print(seen)
 
-arr = [1, 2, 2, 3, 1, 2]
+arr = [1, 2, 2, 3, 1, 2]  
 count_freq(arr)
 
 # using get()
