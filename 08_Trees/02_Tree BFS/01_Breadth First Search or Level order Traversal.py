@@ -5,7 +5,7 @@ class Node:
     def __init__(self,data):
         self.data = data
         self.left = None  
-        self.right = None
+        self.right = None    
 
 def level_order_traversal_or_bfs(root):
 
