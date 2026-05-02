@@ -8,7 +8,7 @@ def dublicate(arr):
 
         if v > 1:
             print(k)   
-
+  
 arr = [1, 2, 2, 3, 1, 4]  
 dublicate(arr)
 
