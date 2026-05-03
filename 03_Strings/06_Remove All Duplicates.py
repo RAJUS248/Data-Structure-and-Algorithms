@@ -4,7 +4,7 @@ def Remove_All_Duplicates(string):
 
     for ch in string:
         if ch not in seen:
-            seen.add(ch)
+            seen.add(ch)  
             result.append(ch)    
 
     print("".join(result))
