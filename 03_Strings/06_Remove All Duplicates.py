@@ -8,5 +8,5 @@ def Remove_All_Duplicates(string):
             result.append(ch)    
 
     print("".join(result))
-
+  
 Remove_All_Duplicates("raaaajaaajj")
