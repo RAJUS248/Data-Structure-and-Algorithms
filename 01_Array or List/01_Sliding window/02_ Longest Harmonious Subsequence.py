@@ -3,7 +3,7 @@ def findLHS(nums):
        
     seen = {}
 
-    for num in nums:
+    for num in nums: 
         seen[num] = seen.get(num,0)+1
 
     maxi = 0
