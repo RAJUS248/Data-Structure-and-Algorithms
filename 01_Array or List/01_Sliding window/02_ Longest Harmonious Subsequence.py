@@ -5,7 +5,7 @@ def findLHS(nums):
 
     for num in nums: 
         seen[num] = seen.get(num,0)+1
-
+  
     maxi = 0
     for i in range(1,len(nums)):
 
