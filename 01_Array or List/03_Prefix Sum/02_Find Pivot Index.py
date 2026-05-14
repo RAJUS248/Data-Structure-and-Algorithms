@@ -5,7 +5,7 @@ def pivotIndex(nums):
     
         for pivot in range(len(nums)):
             right -= nums[pivot]
-            if left == right:
+            if left == right:  
                 return pivot
   
             else:
