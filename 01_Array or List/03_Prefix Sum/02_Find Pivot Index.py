@@ -7,7 +7,7 @@ def pivotIndex(nums):
             right -= nums[pivot]
             if left == right:
                 return pivot
-
+  
             else:
                 left += nums[pivot]
 
