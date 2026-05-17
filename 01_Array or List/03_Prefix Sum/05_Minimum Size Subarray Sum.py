@@ -6,7 +6,7 @@ def minSubArrayLen(target, nums):
 
         l = 0
 
-        for r in range(len(nums)):
+        for r in range(len(nums)):  
   
             cur_sum += nums[r]
 
