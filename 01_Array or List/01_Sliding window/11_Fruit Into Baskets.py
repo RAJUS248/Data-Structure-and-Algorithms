@@ -5,7 +5,7 @@ def totalFruit(fruits):
     seen = {}
 
     for r in range(len(fruits)):
-
+ 
         seen[fruits[r]] = seen.get(fruits[r],0) + 1
 
         if len(seen) > 2:
