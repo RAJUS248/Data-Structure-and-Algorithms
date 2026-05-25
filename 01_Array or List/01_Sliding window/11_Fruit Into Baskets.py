@@ -2,7 +2,7 @@ def totalFruit(fruits):
 
     l = 0
     max_count = 0
-    seen = {}
+    seen = {}  
   
     for r in range(len(fruits)):
  
