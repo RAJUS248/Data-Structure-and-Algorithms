@@ -3,7 +3,7 @@ def totalFruit(fruits):
     l = 0
     max_count = 0
     seen = {}  
-  
+    
     for r in range(len(fruits)):
  
         seen[fruits[r]] = seen.get(fruits[r],0) + 1
