@@ -4,7 +4,7 @@ def maximumPopulation(logs):
 
         for birth,death in logs:   
     
-            res[birth - 1950] += 1  
+            res[birth - 1950] += 1    
             res[death - 1950] -= 1
    
           
