@@ -7,7 +7,7 @@ def removeKdigits(num, k):
 
         if i <= k:
             check = num[0:i+1] + num[k+i+1:n]
-
+  
             if int(check) < int(maxi):
                 maxi = check
     
