@@ -3,7 +3,7 @@ def removeKdigits(num, k):
     n = len(num)
     maxi = num[k-1:n]
 
-    for i in range(n):
+    for i in range(n):  
 
         if i <= k:
             check = num[0:i+1] + num[k+i+1:n]
