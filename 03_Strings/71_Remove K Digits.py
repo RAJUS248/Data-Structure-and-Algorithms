@@ -12,7 +12,7 @@ def removeKdigits(num, k):
                 maxi = check
     
         else:
-            break
+            break  
 
     return maxi
 
