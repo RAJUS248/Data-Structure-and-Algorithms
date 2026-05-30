@@ -4,7 +4,7 @@ max_left = []
 cur_max = arr[0]
 for i in range (len(arr)):
     cur_max = max(cur_max,arr[i])
-    max_left.append(cur_max)
+    max_left.append(cur_max)   
 
 max_right = []
 cur_max = arr[-1]
