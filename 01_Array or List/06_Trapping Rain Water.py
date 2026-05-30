@@ -8,7 +8,7 @@ for i in range (len(arr)):
 
 max_right = []
 cur_max = arr[-1]
-for j in range (len(arr)-1,-1,-1):
+for j in range (len(arr)-1,-1,-1):   
     cur_max = max(cur_max,arr[j])  
     max_right.append(cur_max)
     
