@@ -6,7 +6,7 @@ def answerQueries(nums, queries):
         # for num in queries:
 
         #     cur_sum = 0
-        #     count = 0
+        #     count = 0  
 
         #     for n in nums:
 
