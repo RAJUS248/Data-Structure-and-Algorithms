@@ -10,7 +10,7 @@ def answerQueries(nums, queries):
 
         #     for n in nums:
 
-        #         cur_sum += n
+        #         cur_sum += n   
 
         #         if cur_sum <= num:
         #             count += 1
