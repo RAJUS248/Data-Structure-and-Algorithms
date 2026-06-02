@@ -6,7 +6,7 @@ def reverse_words(string):
         lst.append(word)
 
     # lst = lst[::-1]
-    print(" ".join(lst[::-1]))
+    print(" ".join(lst[::-1]))   
         
 
 reverse_words("i love you")   
