@@ -7,7 +7,7 @@ def First_non_rep_char(string):
             freq[ch] += 1
 
         else:
-            freq[ch] = 1
+            freq[ch] = 1 
      
     for i in range(len(string)):
         if freq[string[i]] == 1:
