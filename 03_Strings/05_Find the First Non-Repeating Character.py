@@ -8,7 +8,7 @@ def First_non_rep_char(string):
   
         else:
             freq[ch] = 1 
-     
+       
     for i in range(len(string)):
         if freq[string[i]] == 1:
             print(i,string[i])        # for that letter and index both
