@@ -1,5 +1,5 @@
 def min_flip(s):
-
+    
     count1 = 0
     count2 = 0
 
