@@ -2,7 +2,7 @@ def min_flip(s):
     
     count1 = 0
     count2 = 0
-
+  
     for i in range(len(s)):
           
         if i % 2 == 0:
