@@ -9,7 +9,7 @@ def longestMountain(arr):
         if (down > 0 and arr[i] < arr[i+1]) or arr[i] == arr[i+1]:
               
             up = 0
-            down = 0
+            down = 0  
 
         if arr[i] < arr[i+1]:
             up += 1   
