@@ -4,7 +4,7 @@ def binary_search(arr,key):
  
     while l <= r:
 
-        mid = (r + l)//2
+        mid = (r + l)//2  
 
         if  arr[mid] == key: 
             return 'key found'
