@@ -1,6 +1,6 @@
 def binary_search(arr,key):
     l = 0
-    r = len(arr) - 1   
+    r = len(arr) - 1      
  
     while l <= r:   
     
