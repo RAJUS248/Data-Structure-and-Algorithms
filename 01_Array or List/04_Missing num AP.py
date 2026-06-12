@@ -7,7 +7,7 @@ def missing_ap(arr):
     d2 = arr[-1] - arr[-2]
 
     diff = d1 if abs(d1) < abs(d2) else d2
-  
+    
     for i in range(len(arr)-1):
         if arr[i] + diff != arr[i+1]:
             return arr[i] + diff
