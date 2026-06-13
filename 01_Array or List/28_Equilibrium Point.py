@@ -10,7 +10,7 @@ def findEquilibrium(arr):
             if left_sum == right_sum:
                   
                 return i
-            
+              
             left_sum += arr[i]
 
         return -1
