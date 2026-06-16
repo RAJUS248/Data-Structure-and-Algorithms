@@ -2,7 +2,7 @@ def missing_num(arr):
     n = len(arr) 
 
     total = n * (n + 1)//2
- 
+   
     actual_sum = sum(arr)
 
     return abs(total - actual_sum)     
