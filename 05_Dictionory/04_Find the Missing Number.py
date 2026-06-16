@@ -7,7 +7,7 @@ def missing_num(arr):
 
     return abs(total - actual_sum)     
 
-arr = [0,3,1]          # it means the missing number is 2  like 0,1,2,3 like this -> N
+arr = [0,3,1]          # it means the missing number is 2  like 0,1,2,3 like this -> N   
  
 print(missing_num(arr))
 
