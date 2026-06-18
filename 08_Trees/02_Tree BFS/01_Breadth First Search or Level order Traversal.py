@@ -7,7 +7,7 @@ class Node:
         self.left = None       
         self.right = None    
 
-def level_order_traversal_or_bfs(root):
+def level_order_traversal_or_bfs(root):  
 
     queue = deque([root])  
     res = []
