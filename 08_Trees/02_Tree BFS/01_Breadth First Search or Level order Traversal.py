@@ -9,7 +9,7 @@ class Node:
 
 def level_order_traversal_or_bfs(root):
 
-    queue = deque([root])
+    queue = deque([root])  
     res = []
 
     while queue:
