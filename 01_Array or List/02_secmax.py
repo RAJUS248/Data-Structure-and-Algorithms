@@ -6,7 +6,7 @@ def sec_max(arr):
             sec_max = maxi
             maxi = num 
 
-        elif num > sec_max and num != maxi:
+        elif num > sec_max and num != maxi:  
             sec_max = num  
 
     if maxi == float("-inf"):
