@@ -7,7 +7,7 @@ def sec_max(arr):
             maxi = num 
 
         elif num > sec_max and num != maxi:
-            sec_max = num
+            sec_max = num  
 
     if maxi == float("-inf"):
         print("there is no second largest element list is empty")
