@@ -4,7 +4,7 @@ class Node:
         self.next = None
 
 class Stack:
-    def __init__(self):
+    def __init__(self):  
         self.top = None
         self.count = 0
  
