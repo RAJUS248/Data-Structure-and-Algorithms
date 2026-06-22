@@ -6,7 +6,7 @@ def Reverse_String(string):
 Reverse_String("raja")   
  
 def reverse_str(string1):
-
+  
     return string1[::-1]  
    
 print(reverse_str("raja\n"))
