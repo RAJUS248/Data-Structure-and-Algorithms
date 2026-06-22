@@ -9,7 +9,7 @@ def reverse_str(string1):
   
     return string1[::-1]  
    
-print(reverse_str("raja\n"))
+print(reverse_str("raja\n"))  
    
 
 # using list 
