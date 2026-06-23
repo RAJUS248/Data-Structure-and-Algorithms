@@ -10,7 +10,7 @@ def max_subarr(arr):
         if cur_sum < 0: 
             cur_sum = 0 
 
-    return max_sum
+    return max_sum 
 
 arr = [-2,1,-3,4,-1,2,1,-5,4]
 print(max_subarr(arr)) 
