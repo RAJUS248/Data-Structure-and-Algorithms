@@ -4,7 +4,7 @@ def max_subarr(arr):
 
     for num in arr:
         cur_sum += num
-
+ 
         max_sum = max(max_sum,cur_sum)
 
         if cur_sum < 0:
