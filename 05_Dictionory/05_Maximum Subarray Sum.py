@@ -7,7 +7,7 @@ def max_subarr(arr):
  
         max_sum = max(max_sum,cur_sum)
 
-        if cur_sum < 0:
+        if cur_sum < 0: 
             cur_sum = 0 
 
     return max_sum
