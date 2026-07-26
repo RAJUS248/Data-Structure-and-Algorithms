@@ -6,7 +6,7 @@ class TreeNode:
         self.right = None
  
 def preorderRecursive(root):
-    
+     
     if root: 
 
         print(root.data)
