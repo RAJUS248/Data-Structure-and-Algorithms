@@ -4,7 +4,7 @@ def arrayPairSum(nums):
 
     max_sum = 0
     
-    # return sum(nums[::2])
+    # return sum(nums[::2]) 
     for i in range(0,len(nums),2):
         
         max_sum += nums[i]
