@@ -1,6 +1,5 @@
 def findLHS(nums):
 
-       
     seen = {}
 
     for num in nums: 
