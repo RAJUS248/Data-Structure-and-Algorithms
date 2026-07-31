@@ -9,7 +9,7 @@ def containsNearbyDuplicate(nums, k):
             else:
                 i = 0
                 while i < j:
-
+  
                     if nums[i] == nums[j] and abs(i-j) <= k:
                         return True
                     
