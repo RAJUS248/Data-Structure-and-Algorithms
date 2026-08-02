@@ -5,7 +5,7 @@ def numberOfSpecialChars(word):
         for i in range(len(word)):
 
             if word[i].islower():
-                seen[word[i]] = i
+                seen[word[i]] = i 
 
             if word[i].isupper() and word[i] not in seen: 
                 seen[word[i]] = i
