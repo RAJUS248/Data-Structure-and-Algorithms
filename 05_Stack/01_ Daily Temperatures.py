@@ -8,7 +8,7 @@ def dailyTemperatures(temperatures):
       
     res = [0] * n  
   
-    for i in range(1,n):
+    for i in range(1,n): 
 
         while stack and temperatures[stack[-1]] < temperatures[i]:
 
