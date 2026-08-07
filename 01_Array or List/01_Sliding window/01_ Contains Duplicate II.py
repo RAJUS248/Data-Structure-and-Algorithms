@@ -2,7 +2,7 @@ def containsNearbyDuplicate(nums, k):
         
         seen = set() 
         for j in range(len(nums)): 
-
+ 
             if nums[j] not in seen:
                 seen.add(nums[j])
 
