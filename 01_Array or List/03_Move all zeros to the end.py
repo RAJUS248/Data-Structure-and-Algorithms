@@ -3,7 +3,7 @@ def zero_end(arr):
     for num in arr:
         if num != 0:
             arr[pos] = num
-            pos += 1
+            pos += 1 
 
     for i in range(pos,len(arr)): 
         arr[i] = 0
