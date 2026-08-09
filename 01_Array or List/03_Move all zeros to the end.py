@@ -5,7 +5,7 @@ def zero_end(arr):
             arr[pos] = num
             pos += 1 
 
-    for i in range(pos,len(arr)): 
+    for i in range(pos,len(arr)):  
         arr[i] = 0
     return arr
         
