@@ -1,7 +1,7 @@
 def zero_end(arr):
     pos = 0
     for num in arr:
-        if num != 0:
+        if num != 0: 
             arr[pos] = num
             pos += 1  
 
