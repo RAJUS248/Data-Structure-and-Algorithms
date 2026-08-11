@@ -5,7 +5,7 @@ def Anagram_Check(string1,string2):
 print(Anagram_Check("raja","ajar"))
 
   
-def Anagram_Check_v2(string1,string2): 
+def Anagram_Check_v2(string1,string2):  
 
     freq = {}  
     freq1 = {}
