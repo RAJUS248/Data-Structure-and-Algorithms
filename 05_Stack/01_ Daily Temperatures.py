@@ -1,6 +1,6 @@
 from collections import deque
 def dailyTemperatures(temperatures):
-    
+     
     n = len(temperatures)
     
     stack = deque()
