@@ -4,7 +4,7 @@ def dailyTemperatures(temperatures):
     n = len(temperatures)
     
     stack = deque() 
-    stack.append(0)
+    stack.append(0) 
       
     res = [0] * n  
   
