@@ -1,15 +1,15 @@
 def containsNearbyDuplicate(nums, k):
         
-        seen = set()
-        for j in range(len(nums)):
-
+        seen = set() 
+        for j in range(len(nums)): 
+  
             if nums[j] not in seen:
-                seen.add(nums[j])
+                seen.add(nums[j]) 
 
             else:
                 i = 0
                 while i < j:
-
+  
                     if nums[i] == nums[j] and abs(i-j) <= k:
                         return True
                     

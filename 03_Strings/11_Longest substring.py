@@ -14,5 +14,5 @@ def longest_substr(string):
 
     return res
 
-string = "geeksgeeksfor"
+string = "abcdecdcb"
 print(longest_substr(string))

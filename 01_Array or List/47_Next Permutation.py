@@ -23,5 +23,5 @@ def next_permutation(arr):
 
     return arr
 
-arr = [1, 3, 5, 4, 2]
+arr = [1,3,2,5,4]
 print(next_permutation(arr))

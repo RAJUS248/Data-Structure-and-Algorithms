@@ -1,10 +1,9 @@
 def wateringPlants(plants, capacity):
-    
-    n = len(plants)
+
     water = capacity
     step = 0
 
-    for i in range(n):
+    for i in range(len(plants)):
         if water < plants[i]:
             step += 2 * i 
             water = capacity

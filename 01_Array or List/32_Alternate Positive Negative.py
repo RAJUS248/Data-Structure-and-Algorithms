@@ -1,17 +1,17 @@
 def Alternate_Positive_Negative(arr):
 
-    pos_arr = []
+    pos_arr = [] 
     neg_arr = []
 
     for num in arr:
 
-        if num >= 0:
+        if num >= 0: 
             pos_arr.append(num)
 
-        else:
-            neg_arr.append(num)
-
-    arr2 = []
+        else: 
+            neg_arr.append(num) 
+  
+    arr2 = [] 
 
     j = 0
 

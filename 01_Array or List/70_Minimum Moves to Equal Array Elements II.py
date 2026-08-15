@@ -13,11 +13,13 @@ def minMoves2(nums):
 
     move = 0
 
-    for num in nums:
+    for num in nums: 
 
         move += abs(num - mid)
 
-    return move
+    return move 
 
 nums = [1, 10, 2, 9]
 print(minMoves2(nums))
+
+

@@ -12,7 +12,7 @@ def str_formating(string):
 
     lst.append(string[-1] + str(count))
 
-    return "".join(lst),lst
+    return "".join(lst)
 
 string = "abca"
 print(str_formating(string))
@@ -45,7 +45,7 @@ def str_formating_v2(arr):
 
     return arr[:write]
 
-arr = ['a','b','b','b','a','a']
+arr = ['a','b','b','b']
+
+
 print(str_formating_v2(arr))
-
-

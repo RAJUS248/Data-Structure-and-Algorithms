@@ -1,13 +1,13 @@
 def pivotIndex(nums):
 
         left = 0
-        right = sum(nums)
+        right = sum(nums)  
     
         for pivot in range(len(nums)):
             right -= nums[pivot]
-            if left == right:
+            if left == right:  
                 return pivot
-
+  
             else:
                 left += nums[pivot]
 

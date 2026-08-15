@@ -25,12 +25,12 @@ def inorder_v2(root):
     
     res = []
 
-    # while root:
-    inorder_v2(root.left)
-    res.append(root.data)
-    inorder_v2(root.right)
+    while root:
+        inorder_v2(root.left)
+        res.append(root.data)
+        inorder_v2(root.right)
 
-    print(res)
+    return res
 
 
 root = Node(1)
@@ -40,5 +40,5 @@ root.left.left = Node(4)
 root.left.right = Node(5)
 root.right.left = Node(6)
 root.right.right = Node(7)
-# print(inorder(root))
+inorder(root)
 print(inorder_v2(root))

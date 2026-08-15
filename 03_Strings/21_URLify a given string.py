@@ -2,14 +2,9 @@ def URLify(s):
 
     s = list(s)
 
-    i = 0
-    while i < len(s):
+    for i in range(len(s)):
         if s[i] == " ":
-            s[i:i+1] = ['%','2','0']
-            i += 3
-
-        else:
-            i += 1
+            s[i] = "%20"
 
     return "".join(s)
 

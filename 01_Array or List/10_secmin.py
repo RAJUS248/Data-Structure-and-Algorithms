@@ -7,7 +7,7 @@ def sec_lowest(arr):
             secmini = mini
             mini = num
 
-        elif num < secmini:# and num != mini:
+        elif num < secmini and num != mini:
             secmini = num
 
     if secmini == float('inf'):
@@ -15,5 +15,5 @@ def sec_lowest(arr):
     else:
         print(secmini)
 
-arr = [0,0,1,-1,-1]
+arr = [0,0,1]
 sec_lowest(arr)

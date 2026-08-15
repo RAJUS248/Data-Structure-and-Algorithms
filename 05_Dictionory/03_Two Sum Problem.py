@@ -10,6 +10,6 @@ def two_sum(arr,target):
 
         seen[num] = index
 
-arr = [2,7,11,15,15,7,2,10]
-target = 25
+arr = [2, 7, 11, 15]
+target = 9
 print(two_sum(arr,target))

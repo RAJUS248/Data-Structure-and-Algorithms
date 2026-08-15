@@ -2,12 +2,12 @@ def maximumPopulation(logs):
 
         res = [0] * 101
 
-        for birth,death in logs:
-
-            res[birth - 1950] += 1
+        for birth,death in logs:   
+    
+            res[birth - 1950] += 1    
             res[death - 1950] -= 1
-
-        
+     
+          
         max_pop = 0
         cur_pop = 0
         year = 0

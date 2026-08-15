@@ -7,6 +7,9 @@ def getMaximumProfit(values, n):
 
             profit += (values[i] - values[i-1])
 
+        # else:
+        #     continue
+
     return profit
 
 

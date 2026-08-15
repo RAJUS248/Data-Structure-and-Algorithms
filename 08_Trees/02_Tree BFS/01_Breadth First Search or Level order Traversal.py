@@ -4,12 +4,12 @@ class Node:
 
     def __init__(self,data):
         self.data = data
-        self.left = None
-        self.right = None
+        self.left = None       
+        self.right = None    
 
-def level_order_traversal_or_bfs(root):
+def level_order_traversal_or_bfs(root):  
 
-    queue = deque([root])
+    queue = deque([root])  
     res = []
 
     while queue:

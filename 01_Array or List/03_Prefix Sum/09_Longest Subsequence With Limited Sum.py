@@ -6,12 +6,12 @@ def answerQueries(nums, queries):
         # for num in queries:
 
         #     cur_sum = 0
-        #     count = 0
+        #     count = 0  
 
         #     for n in nums:
 
-        #         cur_sum += n
-
+        #         cur_sum += n     
+   
         #         if cur_sum <= num:
         #             count += 1
 

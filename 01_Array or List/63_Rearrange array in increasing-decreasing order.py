@@ -1,17 +1,15 @@
 def rearrange_array_increas_decreas_order(arr):
 
-    arr.sort()       # sort the given arr
-        
+    arr.sort()
+    l = len(arr)
     full_len = len(arr) - 1
-    half_len = len(arr)//2        # find mid
+    half_len = l//2
 
     while half_len < full_len:
 
-        # swap right half
-        arr[half_len],arr[full_len] = arr[full_len],arr[half_len]  
-
-        half_len += 1   # increase 1 step 
-        full_len -= 1   # decrease 1 step
+        arr[half_len],arr[full_len] = arr[full_len],arr[half_len]
+        half_len += 1
+        full_len -= 1
 
     return arr
 

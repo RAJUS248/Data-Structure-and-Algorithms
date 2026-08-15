@@ -1,8 +1,5 @@
 def getCompressedString(s):
 
-    if not s:
-        return s
-    
     res = ''
     str_count = 1
 

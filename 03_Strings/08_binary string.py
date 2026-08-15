@@ -5,5 +5,5 @@ def binary_string(s):
     ans = (c * (c-1))//2
     return ans
 
-s = "11101"
+s = "110110111"
 print(binary_string(s))

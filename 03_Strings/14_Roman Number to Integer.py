@@ -40,7 +40,7 @@ def roman_to_int_v2(s):
 
     return total
             
-s = "IV"
+s = "MCMIV"
 
 print(roman_to_int_v2(s))
 

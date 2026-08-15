@@ -26,16 +26,3 @@ def findMaxAverage(nums, k):
 nums = [4,0,4,3,3]#[-5,-4,-3] #[1,12,-5,-6,50,3]
 k = 5
 print(findMaxAverage(nums,k))
-
-
-# window_sum = sum(nums[:k])
-#         max_sum = window_sum
-
-#         for i in range(k,len(nums)):
-
-#             window_sum -= nums[i-k]  # remove left element
-#             window_sum += nums[i]  # add new right element
-
-#             max_sum = max(max_sum,window_sum)
-
-#         return max_sum / float(k)

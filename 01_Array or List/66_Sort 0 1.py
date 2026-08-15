@@ -4,7 +4,7 @@ def sortZeroesAndOne(arr, n) :
 
     for i in range(n):
 
-        if arr[i] != 1:                   # if arr[i] == 0:
+        if arr[i] != 1:
             arr[k],arr[i] = arr[i],arr[k]
             k += 1
 

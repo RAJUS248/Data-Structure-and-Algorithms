@@ -8,3 +8,4 @@ def removeReverse(S):
 
 S = 'abab'
 print(removeReverse(S))
+

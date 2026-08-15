@@ -9,10 +9,10 @@ def arrayRankTransform(arr):
         for rank,score in enumerate(temp):
 
             if score not in seen:
-                seen[score] = rank + 1
-
-        
-
+                seen[score] = rank + 1       
+                  
+                    
+      
         rank_arr = []
         for num in arr:
             rank_arr.append(seen[num])

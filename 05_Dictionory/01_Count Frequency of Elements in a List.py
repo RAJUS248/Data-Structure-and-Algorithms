@@ -1,16 +1,16 @@
 def count_freq(arr):
     seen = {}
 
-    for num in arr:
+    for num in arr:  
         if num in seen:
             seen[num] += 1
-
+  
         else:
-            seen[num] = 1
+            seen[num] = 1   
 
     print(seen)
 
-arr = [1, 2, 2, 3, 1, 2]
+arr = [1, 2, 2, 3, 1, 2]  
 count_freq(arr)
 
 # using get()

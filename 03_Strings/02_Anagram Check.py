@@ -1,13 +1,13 @@
 def Anagram_Check(string1,string2):
 
     return sorted(string1) == sorted(string2)
-
+ 
 print(Anagram_Check("raja","ajar"))
 
-
-def Anagram_Check_v2(string1,string2):
-
-    freq = {}
+   
+def Anagram_Check_v2(string1,string2):  
+ 
+    freq = {}  
     freq1 = {}
     
     for ch in string1:
@@ -51,4 +51,7 @@ def Anagram_Check_v3(string1,string2):
     
     return True
 
+
 print(Anagram_Check_v3("raja","xyz"))
+
+

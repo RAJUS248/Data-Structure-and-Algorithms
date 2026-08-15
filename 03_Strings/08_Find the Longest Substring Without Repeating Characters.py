@@ -15,4 +15,4 @@ def Longest_Substring(string):
 
     print(max_len,"".join(seen))
 
-Longest_Substring("geiifhgf")
+Longest_Substring("pwwkew")

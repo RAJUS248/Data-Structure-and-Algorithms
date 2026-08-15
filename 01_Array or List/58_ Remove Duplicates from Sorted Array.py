@@ -12,7 +12,7 @@ def removeDuplicates(nums):
             nums[j] = nums[i] 
             j += 1
 
-    return j
+    return nums,j
 
 nums = [0,0,1,1,1,2,2,3,3,4]
 print(removeDuplicates(nums))

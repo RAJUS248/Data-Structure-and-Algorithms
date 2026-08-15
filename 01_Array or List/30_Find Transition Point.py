@@ -1,19 +1,21 @@
 def Find_Transition_Point(arr):
 
     if arr[0] == 1:
-        return 0
+        return -1
     
 
     for i in range(len(arr)):
 
-        if arr[i] == 1:
+        if arr[i] == 0:
+            continue
+
+        elif arr[i] == 1:
             return i
 
     return  -1 
 
-arr = [0,0,0,0,1, 1, 1]
+arr = [1, 1, 1]
 print(Find_Transition_Point(arr))
-
 
 
 
@@ -42,5 +44,6 @@ def Find_Transition_Point_v2(arr):
 
 arr = [0,0,0,1,1, 1, 1]
 print(Find_Transition_Point_v2(arr))
+
 
 

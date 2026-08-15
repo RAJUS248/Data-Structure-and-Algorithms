@@ -2,26 +2,15 @@ def Reverse_String(string):
 
     for i in range(len(string)-1,-1,-1):
         print(string[i],end="")
-
-Reverse_String("raja")
-
-
-def reverse(s):
-    s1 = ""
-    for i in range(len(s)-1,-1,-1):
-        s1 += s[i]
-
-    return s1
-s = "raj"
-print(reverse(s))
-
-
-def reverse_str(string1):
-
-    return string1[::-1]
-
-print(reverse_str("raja\n"))
-
+  
+Reverse_String("raja")   
+ 
+def reverse_str(string1):    
+    
+    return string1[::-1]  
+   
+print(reverse_str("raja\n"))  
+   
 
 # using list 
 def reverse_by_swap(string):
