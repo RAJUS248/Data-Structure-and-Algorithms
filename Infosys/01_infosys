@@ -1,0 +1,66 @@
+def vote(n,k,v,m):
+
+    zero = []
+    one = []
+
+    for i in range(n):
+
+        if v[i] == 0:
+            zero.append(m[i]) 
+
+        else:
+            one.append(m[i])
+
+    if zero is not None:
+        s0 = sum(zero)
+
+    else:
+        s0 = 0
+
+    if one is not None:
+
+        s1 = sum(one)
+
+    else:
+        s1 = 0
+
+
+    if s1 > s0:
+        return 0
+    
+
+    zero.sort(reverse=True)
+    flips = 0
+    idx = 0
+    for w in zero:
+
+        if flips >= k:
+            break
+
+        s1 += w
+        s0 -= w
+        
+        idx += 1
+        flips += 1
+
+        if s1 > s0:
+            return flips
+
+    
+    return -1
+
+   
+
+# n = int(input())
+# k = int(input())
+# v = [int(input()) for _ in range(n)]
+# m = [int(input()) for _ in range(n)]
+
+# print(vote(n,k,v,m))
+
+s = "raja"
+res = ""
+for ch in s:
+    res = ch + res
+
+print(res)
