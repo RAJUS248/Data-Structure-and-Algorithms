@@ -7,7 +7,7 @@ def vote(n,k,v,m):
   
         if v[i] == 0:
             zero.append(m[i]) 
-
+  
         else:
             one.append(m[i])
 
