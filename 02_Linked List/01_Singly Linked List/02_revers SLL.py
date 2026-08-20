@@ -4,7 +4,7 @@ class Node:
         self.next = None
 
 class SLL: 
-    def __init__(self): 
+    def __init__(self):  
         self.head = None
  
     def insert_at_beginning(self,data):
