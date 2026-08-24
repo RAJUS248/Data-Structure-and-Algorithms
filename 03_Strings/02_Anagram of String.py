@@ -1,5 +1,5 @@
 def Anagram_of_String(s1,s2):
- 
+  
     freq1 = {}
     freq2 = {} 
 
