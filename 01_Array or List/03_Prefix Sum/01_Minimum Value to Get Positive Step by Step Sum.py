@@ -8,7 +8,7 @@ def minStartValue(nums):
         pref_sum += num
 
         min_pref_sum = min(min_pref_sum,pref_sum)
-
+ 
     StartValue = 1 - min_pref_sum
 
     if StartValue <= 0:
