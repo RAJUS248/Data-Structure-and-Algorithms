@@ -5,7 +5,7 @@ def removeReverse(S):
     for ch in S:
         if ch in sets:
             sets.remove
-
+ 
 S = 'abab'
 print(removeReverse(S))
 
