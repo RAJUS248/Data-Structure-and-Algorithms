@@ -1,7 +1,7 @@
 def sec_max(arr):
     maxi = float("-inf")
     for num in arr:
-        if num > maxi:
+        if num > maxi:  
             maxi = num
     return maxi
   
