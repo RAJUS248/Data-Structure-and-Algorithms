@@ -5,7 +5,7 @@ class Queue:
     def enqueue(self, item):
         self.queue.append(item)
 
-
+  
     def dequeue(self):
         if self.is_empty():  
             print("the queue is empty there no item to remove")
