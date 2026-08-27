@@ -7,7 +7,7 @@ class Queue:
 
 
     def dequeue(self):
-        if self.is_empty():
+        if self.is_empty():  
             print("the queue is empty there no item to remove")
             return None
         return self.queue.pop(0)
