@@ -4,7 +4,7 @@ def pivotIndex(nums):
         right = sum(nums)  
     
         for pivot in range(len(nums)):  
-            right -= nums[pivot]
+            right -= nums[pivot]  
             if left == right:  
                 return pivot
   
