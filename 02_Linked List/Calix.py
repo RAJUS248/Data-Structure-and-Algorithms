@@ -6,7 +6,7 @@ class Node:
 
 
 class SLL:  
-
+  
     def __init__(self,head):
         self.head = None
 
