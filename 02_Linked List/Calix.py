@@ -5,7 +5,7 @@ class Node:
         self.next = None
 
 
-class SLL:
+class SLL:  
 
     def __init__(self,head):
         self.head = None
