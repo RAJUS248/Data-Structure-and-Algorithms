@@ -7,7 +7,7 @@ class Node:
 
 class SLL:  
   
-    def __init__(self,head):
+    def __init__(self,head):  
         self.head = None
 
     def detect_cycle(self,head):
