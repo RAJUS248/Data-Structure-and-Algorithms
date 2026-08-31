@@ -7,7 +7,7 @@ class Node:
 class DLL:
     def __init__(self): 
         self.head = None
- 
+  
     def insert_at_beginning(self,data):
         new_node = Node(data)
 
