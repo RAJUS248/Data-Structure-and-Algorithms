@@ -5,7 +5,7 @@ def dublicate(arr):
         seen[num] = seen.get(num,0) + 1
 
     for k,v in seen.items():
-
+ 
         if v > 1:
             print(k)   
   
