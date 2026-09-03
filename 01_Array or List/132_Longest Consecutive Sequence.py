@@ -1,6 +1,6 @@
 def longestConsecutive(nums):
         
-    nums.sort()
+    nums.sort()  
     
     l = 0
     length = 1 
