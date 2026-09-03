@@ -4,7 +4,7 @@ def longestConsecutive(nums):
     
     l = 0
     length = 1 
-    maxi = 0
+    maxi = 0 
     for r in range(1,len(nums)):
 
         if nums[l] + 1 == nums[r]:
