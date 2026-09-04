@@ -7,7 +7,7 @@ def is_empty():
 def dequeue():
     if is_empty():  
         print("the queue is empty there is no poping items")
-        return None
+        return None  
 
     
     print("removed",queue.pop(0))
