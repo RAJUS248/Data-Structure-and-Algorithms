@@ -6,5 +6,5 @@ def sec_max(arr):
     return maxi       
         
 arr = [10, 20, 4, 45, 99]  
-
+  
 print(max(arr))
