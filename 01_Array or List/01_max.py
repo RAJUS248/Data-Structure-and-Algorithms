@@ -5,6 +5,6 @@ def sec_max(arr):
             maxi = num
     return maxi       
         
-arr = [10, 20, 4, 45, 99]
+arr = [10, 20, 4, 45, 99]  
 
 print(max(arr))
