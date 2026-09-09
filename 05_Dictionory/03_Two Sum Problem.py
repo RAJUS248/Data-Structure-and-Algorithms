@@ -1,6 +1,6 @@
 def two_sum(arr,target):
     seen = {}
-
+  
     for index, num in enumerate(arr):
 
         sec_num = target - num
