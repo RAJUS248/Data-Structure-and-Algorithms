@@ -4,7 +4,7 @@ def two_sum(arr,target):
     for index, num in enumerate(arr):
 
         sec_num = target - num
-  
+    
         if sec_num in seen:
             return seen[sec_num],index
 
