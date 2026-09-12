@@ -5,7 +5,7 @@ def Anagram_of_String(s1,s2):
 
     for ch in s1:
         freq1[ch] = freq1.get(ch,0) + 1
-
+  
     for ch in s2:
         freq2[ch] = freq2.get(ch,0) + 1
 
