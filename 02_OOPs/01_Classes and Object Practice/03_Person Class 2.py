@@ -5,7 +5,7 @@ class Person:
 
     def birthady(self):
 
-        self.age += 1
+        self.age += 1  
         print(f'happy birthday now your {self.age}')
 
 p = Person(23)
