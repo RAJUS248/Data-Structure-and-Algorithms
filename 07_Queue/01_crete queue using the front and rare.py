@@ -3,7 +3,7 @@ class Queue:
         self.queue = [None] * size
         self.size = size  
         self.front = -1
-        self.rear = -1
+        self.rear = -1  
 
     def is_empty(self):
         return self.front == -1 or self.front > self.rear
