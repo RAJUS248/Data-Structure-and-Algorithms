@@ -1,7 +1,7 @@
 class Queue:
     def __init__(self,size):
         self.queue = [None] * size
-        self.size = size
+        self.size = size  
         self.front = -1
         self.rear = -1
 
