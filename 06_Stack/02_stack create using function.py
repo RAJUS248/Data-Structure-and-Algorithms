@@ -6,7 +6,7 @@ def is_empty(stack):
 
 # Push Operation      
 
-def push(stack,item):
+def push(stack,item):    
     stack.append(item)    
     print(f"the {item} is pushed in stack")
 
