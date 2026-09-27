@@ -4,7 +4,7 @@
 def is_empty(stack):
     return len(stack) == 0
 
-# Push Operation
+# Push Operation   
 
 def push(stack,item):
     stack.append(item)
