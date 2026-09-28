@@ -6,7 +6,7 @@ class TreeNode:
         self.right = None
       
 def level_order_traversal(root_node):        
-
+   
     if not root_node:
         return
     
