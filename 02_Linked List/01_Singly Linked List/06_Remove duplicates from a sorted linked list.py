@@ -28,7 +28,7 @@ class SLL:
         cur_node.next = new_node
         return
     
-    def remove_dublicates(self):
+    def remove_duplicates(self):
         cur_node = self.head
 
         while cur_node and cur_node.next:
@@ -52,9 +52,11 @@ class SLL:
 sll = SLL()
 sll.insert_at_end(10)
 sll.insert_at_end(20)
+sll.insert_at_end(30)
 sll.insert_at_end(20)
 sll.insert_at_end(30)
 sll.insert_at_end(30)
-sll.insert_at_end(30)
-sll.remove_dublicates()
+
+sll.print_list()
+sll.remove_duplicates()
 sll.print_list()

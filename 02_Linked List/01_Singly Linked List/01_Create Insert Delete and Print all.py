@@ -90,6 +90,7 @@ class SLL:
             print("invalid position")
             return 
         
+        
         if self.head is None:
             print("list is empty")
             return

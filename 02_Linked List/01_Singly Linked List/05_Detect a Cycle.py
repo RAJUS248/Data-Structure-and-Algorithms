@@ -3,13 +3,13 @@ class Node:
         self.data = data
         self.next = None
 
-class SLL:  
+class SLL:
     def __init__(self):
         self.head = None
-  
+
     def insert_at_end(self,data):
         new_node = Node(data)
- 
+
         # for empty node
         if self.head is None:
             self.head = new_node
@@ -38,7 +38,7 @@ class SLL:
             slow = slow.next
 
             if fast == slow:
-                print("cycle")
+                print("cycle",slow.data)
                 return True
             
         print("no")
@@ -69,7 +69,10 @@ sll.insert_at_end(20)
 sll.insert_at_end(30)
 sll.insert_at_end(40)
 sll.insert_at_end(50)
-sll.head.next.next.next.next.next = sll.head.next
+sll.print_list()
+
+sll.head.next.next.next.next.next = sll.head
 
 sll.print_cycle()
 sll.detect_cycle()
+# sll.print_list()

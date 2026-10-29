@@ -1,10 +1,10 @@
 class Node:
     def __init__(self,data):
         self.data = data
-        self.next = None 
- 
+        self.next = None
+
 class SLL:
-    def __init__(self): 
+    def __init__(self):
         self.head = None
 
     def insert_at_end(self,data):
@@ -70,9 +70,9 @@ class SLL:
             total_len +=1
             cur = cur.next
         print(total_len)
+    
 
-
-        if n > total_len:
+        if n > total_len or n <= 0:
             print("invalid position")
             return None
 
