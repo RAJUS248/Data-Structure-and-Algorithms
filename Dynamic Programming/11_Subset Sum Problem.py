@@ -8,7 +8,7 @@ def isSubsetSum(arr: list[int], sum: int) -> bool:
         
         for s in range(sum,num-1,-1):
             
-            if dp[s-num]:
+            if dp[s-num]:    
                 dp[s] = True
                 
     
