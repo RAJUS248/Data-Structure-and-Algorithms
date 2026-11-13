@@ -8,7 +8,7 @@ def api_call():
     try:
 
         url = "PUBLIC_API_URL"
-
+        
         response = requests.get(url).json()
 
         return response
