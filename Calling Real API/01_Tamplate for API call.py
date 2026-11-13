@@ -4,7 +4,7 @@
 import requests
 
 def api_call():
-   
+      
     try:
 
         url = "PUBLIC_API_URL"
