@@ -4,7 +4,7 @@ def lastStoneWeightII(stones: list[int]) -> int:
 
     target = total // 2
 
-    n = len(stones)
+    n = len(stones)   
 
     dp = [[0] * (target + 1) for _ in range(n+1)]      
    
