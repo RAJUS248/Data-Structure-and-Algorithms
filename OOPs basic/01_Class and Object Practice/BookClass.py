@@ -4,7 +4,7 @@ class Book:
 
         self.title = title   
         self.author = author
-    
+       
     def info(self):
 
         print(f"Book: {self.title} by {self.author}")
